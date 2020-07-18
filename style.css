@@ -1,0 +1,48 @@
+h1 {
+    color:orange;  
+    margin-left: 40%;
+  }
+  * {
+    border:solid;  
+  }
+  .header{
+
+      background-image: url("triangles2.png");
+      display:flex;
+      justify-content:space-between;
+  }
+  .item {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-image: url("tringle.png");
+    position: relative;
+  }
+  .item p{
+    position : absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    opacity: 0;
+  }
+  .item:hover p{
+    opacity: 1;
+  }
+  .footer {
+      margin-right: 40%;
+      display:flex;
+      justify-content:flex-end;
+  }
+  body{
+    background-image: url("gold.png");
+  }
+  a:link{
+    color : orange;
+  }
+  .menu a{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .item:hover img{
+    opacity:0.5
+  }
+  
